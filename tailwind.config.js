@@ -15,6 +15,10 @@ export default {
     extend: {
 
       colors: {
+        green:{
+          'neo-brutalism-green': '#00ff00',
+          300: '#00ff00', // Replace with your desired green color
+        },
 
         gray: {
 
