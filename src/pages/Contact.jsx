@@ -92,7 +92,7 @@ const Contact = () => {
         near:0.1,
         far:1000
       
-      }}
+      }}  
       >
         <directionalLight intensity={2.5} position={[0,0,1]} />
         <ambientLight intensity={1} />
