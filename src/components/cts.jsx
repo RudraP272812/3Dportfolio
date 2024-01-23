@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom'
 const cts = () => {
   return (
     <section className='cta'>
-        <p className='cta-text'>Have a project in mind?
+        <p className='cta-text'> interested in a short conversation.
             <br  className='sm:block hidden'/>
-            Lets built something together.
+            How about we team up and build something awesome together?
         </p>
         <Link to ="/contact" className='btn'> Contact me</Link>
     </section>

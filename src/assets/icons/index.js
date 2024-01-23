@@ -5,19 +5,19 @@ import github from './github.svg'
 import html from './html.svg'
 import javascript from './javascript.svg'
 import mongodb from './mongodb.svg'
-import motion from './motion.svg'
+import motoko from './motoko.svg'
 import mui from './mui.svg'
 import nextjs from './nextjs.svg'
 import nodejs from './nodejs.svg'
 import react from './react.svg'
-import redux from './redux.svg'
-import sass from './sass.svg'
+import cpp from './cpp.svg'
+import unity from './unity.svg'
 import tailwindcss from './tailwindcss.svg'
 import typescript from './typescript.svg'
 import linkedin from './linkedin.svg'
 import twitter from './twitter.svg'
 import car from './car.svg'
-import estate from './estate.svg'
+import blog from './blog.svg'
 import pricewise from './pricewise.svg'
 import snapgram from './snapgram.svg'
 import summiz from './summiz.svg'
@@ -35,19 +35,19 @@ export {
     html,
     javascript,
     mongodb,
-    motion,
+    motoko,
     mui,
     nextjs,
     nodejs,
     react,
-    redux,
-    sass,
+    cpp,
+    unity,
     tailwindcss,
     typescript,
     linkedin,
     twitter,
     car,
-    estate,
+    blog,
     pricewise,
     snapgram,
     summiz,

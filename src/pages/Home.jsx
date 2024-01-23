@@ -1,19 +1,31 @@
 import { Canvas } from '@react-three/fiber'
-import { Suspense, useState } from 'react'
+import { Suspense, useEffect, useRef, useState } from 'react'
 import Loader from '../components/Loader'
 import Island from '../models/island';
 import Sky  from '../models/Sky';
 import Bird from '../models/Bird';
 import Plane  from '../models/Plane';
+import { soundoff, soundon } from "../assets/icons";
 import HomeInfo from '../components/HomeInfo.JSX';
 import SecondBird from '../models/SecondBird';
+import AgoraHills from "../assets/AgoraHills.mp3"
 
-{/* <div className='absolute top-28 left-0 right-0 z-10 flex items-center justify-center'>
-        popup
-      </div> */}
+      
 const Home = () => {
+  const audioRef = useRef(new Audio(AgoraHills));
+  audioRef.current.volume = 0.4;
+  audioRef.current.loop = true;
   const[isRotating,setisRotating]= useState(false);
   const[curretstage,setCurrentStage]= useState(false);
+  const[isPlaying,setisPlaying]= useState(true);
+  useEffect(()=>{
+    if (isPlaying) {
+      audioRef.current.play();
+    }
+    return()=>{
+      audioRef.current.pause();
+    }
+  },[isPlaying]);
   const adjustIslandForScreensize = ()=>{
     let screenScale = null;
     let screenPosition = [0,-6.5,-43];
@@ -72,7 +84,12 @@ const Home = () => {
        </Suspense>
 
       </Canvas>
+      <div className='absolute bottom-2 left-2'>
+        <img src={!isPlaying ? soundoff:soundon} alt="Music Button" className='w-10 h-10 cursor-pointor object-contain'
+        onClick={()=> setisPlaying(!isPlaying)} />
+    </div>
     </section>
+    
   )
 } 
 

@@ -14,7 +14,7 @@ const renderContent = {
     1:(
         <h1 className='sm:text-xl sm:leading-snug 
         text-center neo-brutalism-blue py-9 text-white mx-5'> Hi, I am <span className="font-semibold">
-            Rudra </span>👋 
+            Rudra </span>😎 
             <br className="mt-4" />  
             &nbsp; &nbsp; Indian, Canadian students collaborate, fostering synergy.  &nbsp; &nbsp;
             </h1>

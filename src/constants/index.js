@@ -1,9 +1,9 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { meta, skyjack, fanshawe } from "../assets/images";
 import {
     car,
     contact,
     css,
-    estate,
+    blog,
     express,
     git,
     github,
@@ -11,14 +11,14 @@ import {
     javascript,
     linkedin,
     mongodb,
-    motion,
+    motoko,
     mui,
     nextjs,
     nodejs,
     pricewise,
     react,
-    redux,
-    sass,
+    cpp,
+    unity,
     snapgram,
     summiz,
     tailwindcss,
@@ -63,9 +63,9 @@ export const skills = [
         type: "Database",
     },
     {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
+        imageUrl: motoko,
+        name: "motoko",
+        type: "Crypto",
     },
     {
         imageUrl: mui,
@@ -88,14 +88,14 @@ export const skills = [
         type: "Frontend",
     },
     {
-        imageUrl: redux,
-        name: "Redux",
-        type: "State Management",
+        imageUrl: cpp,
+        name: "cpp",
+        type: "For Basics of OOP",
     },
     {
-        imageUrl: sass,
-        name: "Sass",
-        type: "Frontend",
+        imageUrl: unity,
+        name: "Unity",
+        type: "2D-3D Game Development",
     },
     {
         imageUrl: tailwindcss,
@@ -111,55 +111,42 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        title: "IT Developer",
+        company_name: "Skyjack",
+        icon: skyjack,
         iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        date: "January 2023 - April 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "As an IT support professional at Skyjack, addressing and resolving software errors promptly and efficiently.",
+            "Taking charge of server maintenance responsibilities, ensuring optimal performance and reliability.",
+            "Contributing to the holistic success of the team by leveraging cross-functional expertise for delivering impactful products.",
+            "Ensuring seamless collaboration with cross-functional teams, including designers and product managers, to deliver top-notch, user-friendly products.",
         ],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
+        title: "Peer Mentor Volunteer",
+        company_name: "Fanshawe College",
+        icon: fanshawe,
+        iconBg: "#000000",
+        date: "Sep 2023 - Dec 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Dedicating to the academic success and well-being of fellow students by offering personalized and student-centric mentoring sessions.",
+            "Customizing mentoring approaches to cater to diverse learning styles, and flexibly adapting strategies to address individual student needs.",
+            "Exhibiting clarity, patience, and approachability to foster an environment where students feel encouraged to ask questions and actively participate in the learning process.",
+            "Providing guidance that goes beyond understanding specific course materials, actively promoting critical thinking, and nurturing problem-solving skills for sustained academic success.",
         ],
     },
     {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
+        title: "Peer Tutor",
+        company_name: "Fanshawe College",
+        icon: fanshawe,
+        iconBg: "#000000",
+        date: "Jan 2023 - April 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Prioritizing the academic success and well-being of fellow students by providing personalized and student-centric tutoring sessions.",
+            "Tailoring tutoring approaches to accommodate diverse learning styles and adapting strategies to meet individual student needs.",
+            "Demonstrating clarity, patience, and approachability to encourage students to ask questions and actively engage in the learning process.",
+            "Guiding students not only to understand specific course materials but also promoting critical thinking and problem-solving skills for long-term academic success.",
         ],
     },
 ];
@@ -173,56 +160,47 @@ export const socialLinks = [
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/RudraP272812',
     },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: 'https://www.linkedin.com/in/rudra-patel-5354ab249/',
     }
 ];
 
 export const projects = [
-    {
-        iconUrl: pricewise,
-        theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
-    },
-    {
-        iconUrl: threads,
-        theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
-    },
-    {
-        iconUrl: car,
-        theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
-    },
-    {
-        iconUrl: snapgram,
-        theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
-    },
-    {
-        iconUrl: estate,
-        theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
-    },
-    {
-        iconUrl: summiz,
-        theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
-    }
+  {
+    iconUrl: pricewise,
+    theme: "btn-back-black",
+    name: "DataBank",
+    description:
+      "Developed Dbank, a crypto transfer app using WEB3 and Motoko. Ensured secure and seamless cryptocurrency transfers, showcasing expertise in blockchain development and innovative problem-solving.",
+    link: "https://github.com/RudraP272812/Dbank",
+  },
+  {
+    iconUrl: threads,
+    theme: "btn-back-green",
+    name: "NFTOpenSea",
+    description:
+      'Developed a full-stack NFT minting and selling platform, ensuring a seamless experience for users in creating and trading digital assets.',
+    link: "https://github.com/RudraP272812/NFT-buy-selling",
+  },
+  {
+    iconUrl: car,
+    theme: "btn-back-blue",
+    name: "SecureLogin",
+    description:
+      "Built a secure web login with Passport.js and Google Auth, ensuring robust authentication for a seamless and safe user experience.",
+    link: "https://github.com/RudraP272812/SecureLogin",
+  },
+  
+  {
+    iconUrl: blog,
+    theme: "btn-back-black",
+    name: "BlogHub",
+    description:
+      "Crafted a dynamic blogging web application, empowering users to share and explore diverse content seamlessly.",
+    link: "https://github.com/RudraP272812/Blog-Web",
+  }
 ];
